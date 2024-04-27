@@ -42,11 +42,11 @@
     <form>
       <div class="form-group">
         <label for="username">NIM / USERNAME</label>
-        <input type="text" class="form-control" id="username" placeholder="Enter Nim">
+        <input type="text" class="form-control" id="username" placeholder="Enter Nim" autofocus required>
       </div>
       <div class="form-group">
         <label for="password">PASSWORD</label>
-        <input type="password" class="form-control" id="password" placeholder="Enter Pic">
+        <input type="password" class="form-control" id="password" placeholder="Enter Pic" required>
       </div>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="remember">
